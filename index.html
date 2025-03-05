@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <!-- Enlace a Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Enlace a Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Enlace al archivo CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Encabezado -->
+  <header>
+    <nav>
+      <div class="logo">MiPortafolio</div>
+      <button id="menu-toggle">&#9776;</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección Hero -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Hola, soy [Tu Nombre]</h1>
+      <p>Desarrollador web apasionado por crear experiencias digitales únicas.</p>
+      <a href="#proyectos" class="btn">Ver mis proyectos</a>
+    </div>
+  </section>
+
+  <!-- Sección de Proyectos -->
+  <section id="proyectos" class="projects">
+    <h2>Mis Proyectos</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="assets/images/placeholder.jpg" alt="Proyecto 1">
+        <h3>Proyecto 1</h3>
+        <p>Descripción breve del proyecto 1.</p>
+      </div>
+      <div class="project-card">
+        <img src="assets/images/placeholder.jpg" alt="Proyecto 2">
+        <h3>Proyecto 2</h3>
+        <p>Descripción breve del proyecto 2.</p>
+      </div>
+      <div class="project-card">
+        <img src="assets/images/placeholder.jpg" alt="Proyecto 3">
+        <h3>Proyecto 3</h3>
+        <p>Descripción breve del proyecto 3.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Contacto -->
+  <section id="contacto" class="contact">
+    <h2>Contacto</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <textarea placeholder="Mensaje" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Pie de Página -->
+  <footer>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p>&copy; 2023 MiPortafolio. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Botón Volver al Inicio -->
+  <button id="back-to-top" title="Volver al Inicio">&#8593;</button>
+
+  <!-- Enlace al archivo JavaScript -->
+  <script src="script.js" defer></script>
+</body>
+</html>
